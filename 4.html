@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program 4: 0-10 Squares and Cubes</title> 
+    <script>
+        document.write("<center><table><tr><th>Number</th><th>Square</th><th>Cube</th></tr>");
+        for (var n = 0; n <= 10; n++) {
+            document.write("<tr><td>" + n + "</td><td>" + n * n + "</td><td>" + n * n * n + "</td></tr>");
+        }
+        document.write("</table></center>");
+    </script>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        table {
+            color: #333;
+            width: 640px;
+            border-collapse: collapse;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid #CCC;
+            height: 40px;
+            padding: 8px;
+        }
+
+        th {
+            background: #2676af;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        td {
+            background: #FAFAFA;
+            text-align: center;
+        }
+
+        tr:nth-child(even) td {
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>
