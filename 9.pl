@@ -22,3 +22,21 @@ print "</table>";
 $qh->finish();
 $dbh->disconnect();
 print"</HTML>";
+
+
+
+
+save it as html 
+
+
+<html>
+<body>
+<h1> Enter Information :</h1>
+<form action="http://localhost/cgi-bin/10.pl">
+ Name : <input type="text" name="name"> <br>
+ Age :<input type="text" name="age"> <br>
+<input type="submit" value="SUBMIT">
+<input type="reset" value="RESET">
+</form>
+</html>
+
